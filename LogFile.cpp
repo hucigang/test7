@@ -1,5 +1,6 @@
 // LogFile.cpp: implementation of the CLogFile class.
 //
+// add 
 /**///////////////////////////////////////////////////////////////////////
 #include "stdafx.h"
 #include "LogFile.h"
