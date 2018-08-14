@@ -49,7 +49,7 @@ BOOL CLogFile::WriteLog(CString LogText)
         CString m_sFilePath = GetFilePath();
         CString m_sCurrentTime = CTime::GetCurrentTime().Format("%Y-%m-%d %X");
 
-        //m_sErrorMessage = "*******************" + m_sCurrentTime + "*******************" + "\r\n";
+        //m_sErrorMessage = "*******************" + m_sCurrentTime + "*******************" + "\r\n";    
         m_sErrorMessage = LogText + "\r\n";
         //m_sErrorMessage += "*******************" + m_sCurrentTime + "*******************" + "\r\n";
         if(!m_FileFind.FindFile(m_sFilePath))
